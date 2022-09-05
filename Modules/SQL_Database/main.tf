@@ -1,7 +1,8 @@
-resource "azurerm_sql_database" "sqld_logicalis_demo" {
+resource "azurerm_sql_database" "sqld_generic" {
   name                = var.sqld_name
   resource_group_name = var.rg_name
   location            = var.location
+  source =  "../SQL_Server"
   depends_on          = [module.azurerm_sql_server]
   server_name         = var.sqls_name
 

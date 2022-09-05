@@ -9,7 +9,7 @@ In this Showcase, we will be using *dev* environment only
 
 This Showcase is based on 
 
-![Reference_logicalis_demo](https://user-images.githubusercontent.com/22361420/186303246-3ea1e4fb-d274-4ac5-a4ba-b0b1588a0d85.png)
+![Reference_generic](https://user-images.githubusercontent.com/22361420/186303246-3ea1e4fb-d274-4ac5-a4ba-b0b1588a0d85.png)
 
 ### Modules: ###
 These are a collection of standard configuration files in a dedicated  directory. Terraform modules encapsulate groups of resources dedicated to one task, reducing the amount of code you have to develop for similar infrastructure components.

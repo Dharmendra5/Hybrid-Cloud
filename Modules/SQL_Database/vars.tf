@@ -8,6 +8,10 @@ variable "location" {
   default           = "Australia Southeast"
 }
 
+variable "sqld_name" {}
+
+
+
 variable "tags" {
   type            = map(string)
   description     = "A map of the tags to use on the resources that are deployed with this module."

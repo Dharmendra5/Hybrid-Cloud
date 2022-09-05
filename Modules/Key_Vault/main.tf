@@ -1,4 +1,4 @@
-resource "azurerm_key_vault" "kv_logicalis_demo" {
+resource "azurerm_key_vault" "kv_generic" {
   name                        = kv_name
   resource_group_name         = var.rg_name
   location                    = var.location

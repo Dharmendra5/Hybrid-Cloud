@@ -31,6 +31,6 @@ SQL Database            =   `sqld`
 
 Module name             Firstname_Lastname
 
-Resource type           <resource type>_logicalis_demo  e.g ra_logicalis_demo
+Resource type           <resource type>_generic  e.g ra_generic
 
 Resource name           <resource type>_name           e.g ra_name

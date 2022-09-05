@@ -3,6 +3,8 @@ variable "rg_name" {
   default           = "rg-thorough-ladybug"
 }
 
+variable "sqls_name" {}
+
 variable "location" {
   description       = "Location"
   default           = "Australia Southeast"
@@ -13,9 +15,9 @@ variable "tags" {
   description     = "A map of the tags to use on the resources that are deployed with this module."
 
   default = {
-    source        = "Terraform"
-    owner         = "Hybrid Cloud Team"
-    environment   = "Dev"
+    Source        = "Terraform"
+    Owner         = "Hybrid Cloud Team"
+    Environment   = "Dev"
     Developer     = "Depal Dhir"
   }
 }

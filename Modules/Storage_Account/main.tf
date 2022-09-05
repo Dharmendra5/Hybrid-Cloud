@@ -1,4 +1,4 @@
-resource "azurerm_storage_account" "sa_logicalis_demo" {
+resource "azurerm_storage_account" "sa_generic" {
     name                        = var.sa_name
     resource_group_name         = var.rg_name
     location                    = var.location

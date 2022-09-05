@@ -1,10 +1,10 @@
-resource "azurerm_network_security_group" "nsg_logicalis_demo" {
+resource "azurerm_network_security_group" "nsg_generic" {
   name                         = "nsg_name"
   resource_group_name          = var.rg_name
   location                     = var.location
   
   security_rule {
-    name                       = "Logicalis_Demo_Security_Rule"
+    name                       = "generic_Security_Rule"
     priority                   = 100
     direction                  = "Inbound"
     access                     = "Allow"
@@ -18,5 +18,5 @@ resource "azurerm_network_security_group" "nsg_logicalis_demo" {
 
 # resource "azurerm_subnet_network_security_group_association" "example" {
 #   subnet_id                 = var.sn_1.id
-#   network_security_group_id = azurerm_network_security_group.nsg_logicalis_demo.id
+#   network_security_group_id = azurerm_network_security_group.nsg_generic.id
 # }
