@@ -1,42 +1,48 @@
-variable "subnet1" {
-    type        = string
-    description = "Enter the name for Subnet 1"
+variable instance_data {
+  default = {
+    count = "2"
+}
 }
 
-variable "prefix1" {
-    type        = string
-    description = "Enter the name for Prefix 1"
+# variable "subnet1" {
+#     type        = string
+#     description = "Enter the name for Subnet 1"
+# }
+
+variable "prefix" {
+    # type        = string
+    description = "Enter the name for Prefix"
 }
 
-variable "subnet2" {
-    type        = string
-    description = "Enter the name for Subnet 2"
-}
+# variable "subnet2" {
+#     type        = string
+#     description = "Enter the name for Subnet 2"
+# }
 
-variable "prefix2" {
-    type        = string
-    description = "Enter the name for Prefix 2"
-}
+# variable "prefix2" {
+#     type        = string
+#     description = "Enter the name for Prefix 2"
+# }
 
-variable "subnet3" {
-    type        = string
-    description = "Enter the name for Subnet 3"
-}
+# variable "subnet3" {
+#     type        = string
+#     description = "Enter the name for Subnet 3"
+# }
 
-variable "prefix3" {
-    type        = string
-    description = "Enter the name for Prefix 3"
-}
+# variable "prefix3" {
+#     type        = string
+#     description = "Enter the name for Prefix 3"
+# }
 
-variable "subnet4" {
-    type        = string
-    description = "Enter the name for Subnet 4"
-}
+# variable "subnet4" {
+#     type        = string
+#     description = "Enter the name for Subnet 4"
+# }
 
-variable "prefix4" {
-    type        = string
-    description = "Enter the name for Prefix 4"
-}
+# variable "prefix4" {
+#     type        = string
+#     description = "Enter the name for Prefix 4"
+# }
 
 variable "tags" {
   type            = map(string)

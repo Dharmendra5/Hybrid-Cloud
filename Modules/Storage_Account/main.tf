@@ -7,5 +7,5 @@ resource "azurerm_storage_account" "sa_generic" {
     min_tls_version             = var.min_tls_version
     access_tier                 = var.access_tier
     account_tier                = var.account_tier
-    tags                        = var.tags
+    # tags                        = var.tags
 }
